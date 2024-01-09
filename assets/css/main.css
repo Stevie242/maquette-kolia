@@ -125,6 +125,7 @@ a{
 }
 
 /* ========================= */
+.body-compte,
 .body-home{
     background-color: var(--background);
     overflow: hidden;
@@ -471,11 +472,97 @@ a{
     color: var(--four-color);
 }
 
+/* ========================= */
 
 .bottom-navigation{
     display: none;
 }
 /* ========================= */
+
+/* Page Compte desktop start */
+.body-compte .compte{
+    background-color: var(--secod-color);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: var(--margin-top-footer) !important;
+    padding: 15px !important;
+}
+
+.body-compte .compte .head .title h3{
+    font-weight: bold;
+    font-size: var(--font-size-title-section);
+}
+
+.body-compte .compte .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.body-compte .compte .content img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.body-compte .compte .content h4{
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+    color: var(--third-color);
+    font-weight: bold;
+}
+
+.body-compte .compte .content h5{
+    color: var(--four-color);
+}
+
+.body-compte .compte .content form button{
+    border: none;
+    background-color: transparent;
+    font-size: var(--font-size-button);
+    color: var(--first-color);
+    font-weight: 700;
+    transition: ease-in-out .3s;
+    /* margin-bottom: 10px; */
+}
+
+.body-compte .compte .content form button:hover{
+    color: var(--firt-color-hover);
+    text-decoration: underline;
+}
+
+.body-compte .compte .fake-box{
+    height: 5px;
+    width: 100%;
+    background-color: var(--background);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body-compte .compte .option .liste-option{
+    list-style: none;
+    margin: 0 !important;
+    padding-left: 0 !important;
+}
+
+.body-compte .compte .option .liste-option li{
+    margin-bottom: 15px;
+}
+
+.body-compte .compte .option .liste-option li a{
+    color: var(--third-color);
+    font-size: var(--font-size-link);
+    text-decoration: none;
+    transition: ease-in-out .3s;
+}
+
+.body-compte .compte .option .liste-option li a:hover{
+    color: var(--firt-color-hover);
+}
+/* Page Compte desktop end */
 
 /* Version desktop end */
 
@@ -558,7 +645,7 @@ a{
 
     /* ========================= */
 
-
+    .body-compte,
     .body-home{
         background-color: var(--background);
         overflow: hidden;
@@ -948,5 +1035,91 @@ a{
     .bottom-navigation ul li a span:first-child{
         font-size: 18px;
     }
+
+
+    /* Page Compte mobile start */
+    .body-compte .compte{
+        background-color: var(--secod-color);
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: var(--margin-top-footer) !important;
+        padding: 15px !important;
+    }
+
+    .body-compte .compte .head .title h3{
+        font-weight: bold;
+        font-size: var(--font-size-title-section);
+    }
+
+    .body-compte .compte .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .body-compte .compte .content img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .body-compte .compte .content h4{
+        margin-top: 10px;
+        margin-bottom: 0 !important;
+        color: var(--third-color);
+        font-weight: bold;
+    }
+
+    .body-compte .compte .content h5{
+        color: var(--four-color);
+    }
+
+    .body-compte .compte .content form button{
+        border: none;
+        background-color: transparent;
+        font-size: var(--font-size-button);
+        color: var(--first-color);
+        font-weight: 700;
+        transition: ease-in-out .3s;
+        /* margin-bottom: 10px; */
+    }
+
+    .body-compte .compte .content form button:hover{
+        color: var(--firt-color-hover);
+        text-decoration: underline;
+    }
+
+    .body-compte .compte .fake-box{
+        height: 5px;
+        width: 100%;
+        background-color: var(--background);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .body-compte .compte .option .liste-option{
+        list-style: none;
+        margin: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .body-compte .compte .option .liste-option li{
+        margin-bottom: 15px;
+    }
+
+    .body-compte .compte .option .liste-option li a{
+        color: var(--third-color);
+        font-size: var(--font-size-link);
+        text-decoration: none;
+        transition: ease-in-out .3s;
+    }
+
+    .body-compte .compte .option .liste-option li a:hover{
+        color: var(--firt-color-hover);
+    }
+    /* Page Compte mobile end */
 }
 /* Version mobile end */
