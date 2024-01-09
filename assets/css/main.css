@@ -1036,6 +1036,16 @@ a{
         font-size: 18px;
     }
 
+    /* Tous les restaurants */
+    .body-restau .all-restau{
+        background-color: var(--background);
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding: 15px !important;
+    }
+    /* Tous les restaurants */
 
     /* Page Compte mobile start */
     .body-compte .compte{
