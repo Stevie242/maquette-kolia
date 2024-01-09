@@ -670,6 +670,7 @@ a{
         scrollbar-color: transparent;
         margin-top: 10px;
         margin-bottom: 10px;
+        justify-content:start;
     }
     
     .popular-restau .popular-restau-content .popular-restau-item{
