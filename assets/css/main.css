@@ -1768,6 +1768,7 @@ a {
         border-bottom-left-radius: 20px;
         border: 2px solid var(--first-color);
         padding: 10px 15px;
+        width: 170px;
     }
 
     .body-basket .basket .foot .promo-code .input-button button {
@@ -1782,6 +1783,7 @@ a {
         font-weight: 700;
         transition: ease-in-out .3s;
         outline: none;
+        width: 120px;
     }
 
     .body-basket .basket .foot .total-basket {
