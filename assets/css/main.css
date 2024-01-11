@@ -1768,7 +1768,7 @@ a {
         border-bottom-left-radius: 20px;
         border: 2px solid var(--first-color);
         padding: 10px 15px;
-        width: 170px;
+        width: 100px !important;
     }
 
     .body-basket .basket .foot .promo-code .input-button button {
