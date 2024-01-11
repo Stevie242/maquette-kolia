@@ -67,6 +67,174 @@ a{
 
 /* Version desktop start */
 
+/* ========================= */
+    .body-register .register-body,
+    .body-login .login-body{
+        max-width: 400px;   
+    }
+    .body-register .register{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .body-login .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .body-register .register .register-head,
+    .body-login .login .login-head{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .body-register .register .register-head img,
+    .body-login .login .login-head img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .body-register .register .register-head p,
+    .body-login .login .login-head p{
+        font-family: var(--maintfont);
+        /* font-weight: bold; */
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .body-register .register .register-body,
+    .body-login .login .login-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body-register .register .register-body h4,
+    .body-login .login .login-body h4{
+        font-family: var(--maintfont);
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .body-register .register .register-body .form-input,
+    .body-login .login .login-body .form-input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .body-register .register .register-body .form-input input,
+    .body-login .login .login-body .form-input input{
+        width: 300px;
+        padding: 10px;
+        border-radius: 20px;
+        border: 2px solid var(--first-color);
+        outline: none;
+    }
+
+    .body-login .login .login-body .form-input a{
+        position: relative;
+        right: -70px;
+        margin-top: 5px;
+        font-size: 12px;
+        color: var(--four-color);
+        transition: ease-in-out .3s;
+        cursor: pointer;
+    }
+
+    .body-login .login .login-body .form-input a:hover{
+        color: var(--firt-color-hover);
+        text-decoration: underline;
+    }
+
+    .body-register .register .register-body .register-cond{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .body-register .register .register-body .register-cond p{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: var(--maintfont);
+        display: block;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .body-register .register .register-body .register-cond p a{
+        color: var(--third-color);
+        font-weight: bold;
+        font-family: var(--maintfont);
+        transition: ease-in-out .3s;
+    }
+
+    .body-register .register .register-body .register-cond p a:hover{
+        color: var(--firt-color-hover);
+    }
+
+    .body-register .register .register-body .form-btn,
+    .body-login .login .login-body .form-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .body-register .register .register-body .form-btn button,
+    .body-login .login .login-body .form-btn button{
+        padding: 10px 15px;
+        border-radius: 20px;
+        border: none;
+        background-color: var(--first-color);
+        color: var(--secod-color);
+        transition: ease-in-out .3s;
+        font-size: var(--font-size-button);
+        font-family: var(--maintfont);
+        font-weight: bold;
+        width: 150px;
+    }
+
+    .body-register .register .register-body > p
+    .body-login .login .login-body p{
+        font-family: var(--maintfont);
+        font-size: 14px;
+    }
+
+    .body-register .register .register-body > p a,
+    .body-login .login .login-body p a{
+        text-decoration: none;
+        color: var(--first-color);
+        font-weight: bold;
+        transition: ease-in-out .3s;
+    }
+
+    .body-register .register .register-body > p a:hover,
+    .body-login .login .login-body p a:hover{
+        color: var(--firt-color-hover);
+    }
+
+    .body-register .register footer,
+    .body-login .login footer{
+        font-size: 12px;
+        font-family: var(--maintfont);
+        font-weight: 400;
+        color: var(--four-color);
+        margin-top: 70px;
+    }
+    /* ========================= */
+
+
 .header-mobile{
     display: none;
 }
@@ -589,6 +757,7 @@ a{
         margin: 0 15px;
 
     }
+
     /* ========================= */
 
     .header-mobile{
